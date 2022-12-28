@@ -1,0 +1,436 @@
+/*
+Theme Name: Adidas
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat";
+}
+
+
+
+
+.container{
+	width: 90%;
+	margin: 1% auto;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+a{
+
+	font-size: 1.2rem;
+	text-decoration: none;
+	color: #136FB0;
+	font-weight: bold;
+}		
+
+
+
+/* ----------------------section main --------------------*/
+.main{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+.title{
+	color: #136FB0;
+	font-size: 13rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100%;
+}
+.header__nav a{
+	padding: 0 40px ;
+}
+span{
+	color: grey ;}
+
+
+
+.toggle{
+	display: none;
+}
+
+/* -----------------------section quiz----------------------- */
+.quiz{
+	height: 120vh;
+}
+.quiz .test{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;}
+
+.quiz .test-right h2{
+	font-size: 62px;
+	color: #136FB0;}
+
+.quiz .test-right p{
+	padding: 40px 0;
+	font-size: 24px;
+	width: 50%;
+	color: grey;}
+
+.quiz  .test-right button{
+	border: 2px solid #136FB0;
+	color: #136FB0;
+	font-size: 26px;
+	padding: 10px;
+	font-weight: bold;
+	background-color: transparent;
+	transition: .5s;}
+
+.quiz  .test-right button:hover{
+	background-color: #136FB0;
+	color: white;
+	transition: .5s;}
+
+.quiz .test-left{
+	width: 50%;}
+
+.quiz .test-left .students{
+	width: 100% ;
+	height: 70vh;
+
+}
+
+
+
+
+.quiz .steps{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.quiz .steps h1{
+	font-size: 3rem;
+}
+.quiz .steps .block{
+	border: 1px solid #136FB0;
+	width: 17%;
+	height: 20vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+	font-size: 1.2rem;
+	font-weight: 500;
+	transition: .5s;
+}
+.quiz .steps .block:hover{
+	cursor: pointer;
+	background-color: #136FB0;
+	transition: .5s;
+	color: white;
+}
+
+/* ---------------------first------------------------------------- */
+.aim{
+	height: 90vh;
+}
+.first{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.first-block{
+	padding: 20px;
+}
+.first-block h1{
+	font-size: 2.5rem;
+	color: #136FB0;
+}
+.first p{
+	padding: 20px;
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: grey;
+}
+.first .sec{
+	text-align: right;
+}
+
+
+
+/* ---------------------------dress----------------------------------- */
+.dress{
+	background-color: #136FB0;
+	width: 100%;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.up{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	width: 65%;
+}
+.up img{
+	margin-left: 350px;
+	width: 400px;
+}
+.down {
+	display: flex;
+	justify-content: center;
+}
+.down img{
+	width: 270px;
+	margin: 0 10px;
+}
+
+
+
+
+
+
+
+/* --------------------Footer----------------------------------- */
+footer{
+	margin: 0;
+	padding: 5%;
+	padding-left: 15%;
+	padding-right: 15%;
+	background-color: #222;
+	color: #fff;
+  }
+  
+  .footer-content-1{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: solid 1px #fff;
+	padding-bottom: 59px;
+  }
+  .footer-title p{
+  font-size: 15px;
+  margin-top: 25px;
+  font-family: Montserrat;
+  }
+  .footer-links{
+	display: flex;
+  }
+  .footer-links-1{
+	margin-right: 100px;
+  }
+  .f-links li{
+	margin-bottom: 30px;
+  }
+  .f-links li a{
+	font-family: Montserrat;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 16px;
+  }
+  
+  .footer-info{
+	display: flex;
+  }
+  
+  .footer-info-1{
+	margin-right: 80px;
+  }
+  
+  .footer-card{
+	display: flex;
+  }
+  .footer-card p{
+	line-height: 30px;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: light;
+  }
+  .footer-card span{
+	font-weight: bold;
+	font-size: 17px;
+  }
+  
+  .footer-card img{
+	width: 24px;
+	height: 24px;
+	margin: 2%;
+	margin-right: 3%;
+  }
+  .footer-content-2{
+	margin-top: 20px;
+	float: right;
+  }
+  .footer-content-2 img{
+	margin: 10px;
+  }
+
+
+  
+  
+  @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+
+
+.section {
+  padding: 5rem 0;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+main {
+  min-height: 100vh;
+  display: grid;
+}
+
+
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.nav-toggle {
+  font-size: 1.5rem;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  color: var(--clr-primary-1);
+  transform: rotate(90deg);
+}
+.logo {
+  height: 50px;
+}
+
+.links a {
+  color: var(--clr--main-1);
+  font-size: 1.25rem;
+  font-weight: bolder;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: var(--transition);
+}
+.links a:hover {
+  color: #52a1da;
+  padding-left: 1.5rem;
+}
+.links li{
+    margin-left: 25px;
+}
+.links {
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+  margin-right: 5%;
+}
+.show-links {
+  height: 15rem;
+}
+
+
+/* title*/
+
+.mainwords{
+ 
+    font-family: var(--ff-main);
+    font-weight: bolder;
+    font-size: 130px;
+    border-color: #136FB0;
+    margin-top: 15%;
+    margin-bottom: 25%;
+    text-shadow: 2px 0 #136FB0, -2px 0 #136FB0, 0 2px #136FB0, 0 -2px #136FB0,
+               1px 1px #136FB0, -1px -1px #136FB0, 1px -1px #136FB0, -1px 1px #136FB0;
+}
+
+.title span{
+    color: #fff;
+    text-shadow: 2px 0 #136FB0, -2px 0 #136FB0, 0 2px #136FB0, 0 -2px #136FB0,
+               1px 1px #136FB0, -1px -1px #136FB0, 1px -1px #136FB0, -1px 1px #136FB0;
+}
+
+/* ----------------transition----------------------- */
+.transition{
+	animation: ani;
+	animation-duration: 1s;
+}
+@keyframes ani {
+	from{
+		opacity: 0;
+		transform: translateY(50px);
+	}
+	to{
+		opacity: 1;
+		transform: translateY();
+	}
+}
+
+
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media screen and (max-width: 480px) {
+
+	.header__nav{
+		display: none;
+	}
+	.toggle{
+		overflow: hidden;
+		/* padding: 0px 7px; */
+		/* transform: scale(2); */
+		display: block;
+	}
+}
+
+
+@keyframes ani{
+	from{
+		  opacity: 0;
+  transform: translateY(20px);
+	}
+	to{
+		opacity: 1;
+		transition: all 1.5s;
+		transform: translateY(0%);
+	}
+}
+.animation {
+	animation-name: ani;
+	animation-duration: 1s;
+}
+
+
+
+
+
